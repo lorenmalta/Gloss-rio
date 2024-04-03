@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meu Dicionário Javascript">
+  <meta name="author" content="Lorena Malta">
+  <title>Meu Dicionário Javascript</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jayson.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+  <div class="logo">
+    <div class="centered-logo">
+        <img class="center-logo" src="imagens/JS.png" width="250" alt="Logo do Javascript, livro, com as letras J e S" title="Meu Dicionário Javascript">
+         </div>
+
+        <div>
+          <h1>Bem-vindo ao Meu Dicionário Javascript!</h1>
+          <p>Escolha um verbete no combo abaixo:</p>
+          <select title="Tópicos" id="slc-topicos" onchange="onSelectChange()">
+              <option value="1">Choose an option:</option>
+              <option value="2">O que é Javascript</option>
+              <option value="3">Statement 'for'</option>
+              <option value="4">Funções em Javascript</option>
+              <option value="5">Objetos em Javascript</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+                        
+            <p id="demo"></p>
+          </select>
+
+      </div>
+
+</body>
+</html>

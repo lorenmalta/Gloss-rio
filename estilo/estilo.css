@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#EDFDFF;
+  color: #FF0080;
+}
+
+img{
+  width: 20%;
+  height: 20%;
+  padding: 10px 40% 0px;  
+ }
+
+ h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FF0080;
+}
+
+select {
+  width: 35%;
+  padding: 10px;
+  margin-top: 10px;
+  outline-color: #FF0080;
+}
+
+textarea {
+  height: 150px;
+  width: 100%;
+  padding: auto;
+  margin-top: 10px;
+  outline-color: #FF0080;
+}
+
+.centered-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
